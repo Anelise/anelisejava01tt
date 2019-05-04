@@ -1,6 +1,10 @@
 public class Nota {
     private float valor;
 
+    public Nota(float val){
+        setValor(val);
+    }
+
     public float getValor() {
         return valor;
     }
