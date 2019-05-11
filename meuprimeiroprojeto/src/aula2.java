@@ -1,3 +1,7 @@
+import sun.font.BidiUtils;
+
+import java.math.BigDecimal;
+
 public class aula2 {
 
     public static void main(String[] args){
@@ -36,20 +40,22 @@ public class aula2 {
 
         System.out.println("\nExercício6 fatorial sem acumular o anterior");
         for(int linha=1; linha<50; linha++){
-            contador1 = linha;
-            for(int i=1; i<linha; i++){
-                contador1 = contador1 * i;
-            }
-            System.out.printf("(%d)%d%s",linha,contador1 , "|");
+            long contador = linha;
+            for(long i=1; i<linha; i++) {
+                contador = contador * i;
 
+            }
+            System.out.printf("%d= %d%s", linha,contador, "|");
         }
         System.out.println("\nExercício7 Imprima  os  primeiros  números  da  série  de  Fibonacci  até  passar  de  100");
-        int num1 = 1;
+        int num1 = 0;
         int num2 = 1;
-        int soma;
-        for(int i=1; i<100; i++){
-            soma = (num1+num2);
+        int soma =1;
+
+        for(int i=0; num2<100; i++){
+
             System.out.printf("(%d)%s",soma, "|");
+            soma = (num1+num2);
             num1 = num2;
             num2 = soma;
 
