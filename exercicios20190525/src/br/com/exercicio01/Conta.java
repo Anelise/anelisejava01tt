@@ -4,29 +4,32 @@ package br.com.exercicio01;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalAdjusters;
+import java.util.ArrayList;
 
 public class Conta {
-    private String nomeTitular;
     private long numeroConta;
     private int codigoAgencia;
     private double saldo;
     private LocalDate dataabertura;
 
-    public Conta(String nTitular, long nConta, int agencia, double saldo ){
-        this.setNomeTitular(nTitular);
+    private ArrayList<Movimento> movimentos;
+
+    public Conta(long nConta, int agencia){
         this.setNumeroConta(nConta);
         this.setCodigoAgencia(agencia);
-        this.setSaldo(saldo);
         this.setDataabertura(LocalDate.now().withMonth(1).withDayOfMonth(1).withYear(2000));
-        System.out.println("Data inicio da conta"+ this.getDataabertura().format(DateTimeFormatter.ofPattern("dd/MM/yyyy")));
+
+        this.movimentos = new ArrayList<>();
+
+
+    } //System.out.println("Data inicio da conta"+ this.getDataabertura().format(DateTimeFormatter.ofPattern("dd/MM/yyyy")));
+
+    public ArrayList<Movimento> getMovimentos() {
+        return movimentos;
     }
 
-    public String getNomeTitular() {
-        return nomeTitular;
-    }
-
-    public void setNomeTitular(String nomeTitular) {
-        this.nomeTitular = nomeTitular;
+    public void setMovimentos(ArrayList<Movimento> movimentos) {
+        this.movimentos = movimentos;
     }
 
     public int getCodigoAgencia() {
@@ -64,11 +67,13 @@ public class Conta {
     public void retiraValorDoSaldo(int valor){
         if(valor < getSaldo()){
             setSaldo(getSaldo()-valor);
+            movimentos.add(new Movimento(Movimento.TipoMovimento.SAQUE,valor, "Movimentação SAQUE"));
         }
     }
 
     public void depositaValorDoSaldo(int valor){
         this.setSaldo(this.getSaldo()+valor);
+        movimentos.add(new Movimento(Movimento.TipoMovimento.DEPOSITO,valor, "Movimentação DEPóSITO"));
     }
 
     public double calculaRendimentoMes(){
@@ -84,14 +89,28 @@ public class Conta {
         return this.getSaldo() * (Indices.calculaJurosMensalPoupanca()/100);
     }
 
+    public String geraExtrato(){
+        String extrato = "*Extrato* \n";
+
+        for(Movimento m : movimentos){
+            extrato += "\n"+m.toString();
+        }
+
+        return extrato;
+    }
     @Override
     public String toString() {
         String data = getDataabertura().format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
-        return getNomeTitular() + "| AG: "+getCodigoAgencia()+ "| CC:"+getNumeroConta()+ "| Saldo: "+getSaldo() + "|"+data;
+        return " AG: "+getCodigoAgencia()+ "| CC:"+getNumeroConta()+ "| Saldo: "+getSaldo() + "|"+data;
     }
 
     public String recuperaDadosParaImpressao(){
         return this.toString();
+    }
+
+
+    public enum TipoConta {
+        CORRENTE, POUPANCA
     }
 
 
