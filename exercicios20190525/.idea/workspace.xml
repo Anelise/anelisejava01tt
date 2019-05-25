@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2095e37e-6c64-49f0-9fe4-2d2cafa626aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/exercicio01/Aplicacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/exercicio01/BancoDeDados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/exercicio01/Correntista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/exercicio01/Movimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercicios20190525/br/com/exercicio01/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicios20190525/br/com/exercicio01/Conta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercicios20190525/br/com/exercicio01/TesteConta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercicios20190525/br/com/exercicio01/TesteContaCompara.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercicios20190525/br/com/exercicio01/TipoConta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/exercicio01/Aplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/exercicio01/Aplicacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/exercicio01/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/exercicio01/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/exercicio01/TesteConta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/exercicio01/TesteContaCompara.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/exercicio01/TipoConta.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/exercicio01/Conta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="98" column="23" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="23" />
+            <state relative-caret-position="220">
+              <caret line="96" column="9" lean-forward="true" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#865#866#0" expanded="true" />
@@ -47,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/br/com/exercicio01/Aplicacao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="57" column="85" selection-start-line="57" selection-start-column="85" selection-end-line="57" selection-end-column="85" />
+            <state relative-caret-position="221">
+              <caret line="28" column="66" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,8 +110,8 @@
         <option value="$PROJECT_DIR$/src/br/com/exercicio01/TesteContaCompara.java" />
         <option value="$PROJECT_DIR$/src/br/com/exercicio01/Correntista.java" />
         <option value="$PROJECT_DIR$/src/br/com/exercicio01/Movimento.java" />
-        <option value="$PROJECT_DIR$/src/br/com/exercicio01/Conta.java" />
         <option value="$PROJECT_DIR$/src/br/com/exercicio01/BancoDeDados.java" />
+        <option value="$PROJECT_DIR$/src/br/com/exercicio01/Conta.java" />
         <option value="$PROJECT_DIR$/src/br/com/exercicio01/Aplicacao.java" />
       </list>
     </option>
@@ -166,7 +155,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558814100896" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558815614647" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -328,20 +317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/exercicio01/Conta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="98" column="23" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/exercicio01/BancoDeDados.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
@@ -363,10 +338,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/exercicio01/Conta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="96" column="9" lean-forward="true" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/exercicio01/Aplicacao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="57" column="85" selection-start-line="57" selection-start-column="85" selection-end-line="57" selection-end-column="85" />
+        <state relative-caret-position="221">
+          <caret line="28" column="66" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

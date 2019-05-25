@@ -14,22 +14,27 @@ public class Aplicacao {
             corrAtual = solicitaLogin(terminal);
 
             if( corrAtual != null){
-                System.out.println("Sucesso!");
                 while(true){
                     imprimeMenuConta(corrAtual);
 
-                    if(abreMenuConta(terminal) == 99){
+                    if(abreMenuConta(terminal,corrAtual) == 99){
                         return;
                     }
                 }
             }
         }
     }
-    public static int abreMenuConta(Scanner terminal){
+    public static void menuOp1(Correntista corr){
+        System.out.print("######## 3# Extrato"+corr.getConta().geraExtrato());
+        System.out.print("\n\t\t\t"+corr.getConta().getSaldo()+"\n");
+    }
+
+
+    public static int abreMenuConta(Scanner terminal,Correntista corr){
         int op = terminal.nextInt();
             switch (op) {
                 case 1:
-                    System.out.println("op 1 ");
+                    menuOp1(corr);
                     break;
                 case 2:
                     System.out.println("op 2 ");
@@ -51,21 +56,21 @@ public class Aplicacao {
 
     }
     public static void imprimeMenuConta(Correntista correntista){
-        System.out.print("\n######## 2# Tela inicial\n************ Target Bank ************\nNome:"+correntista.getNome());
-        System.out.print("\nAg: "+correntista.getConta().getCodigoAgencia());
-        System.out.print("\nCC: "+correntista.getConta().getNumeroConta());
-        System.out.print("\n*************************************\nOpcoes\n\n1 - Extrato\n");
-        System.out.print("2 - Saldo\n3 - Deposito\n4 - Saque\n5 - Pagamentos\n99-Sair\n*************************************");
+        System.out.print("\n######## 2# Tela inicial ** [Target Bank] ************\nNome:"+correntista.getNome());
+        System.out.print(" | Ag: "+correntista.getConta().getCodigoAgencia());
+        System.out.print(" | CC: "+correntista.getConta().getNumeroConta());
+        System.out.print("\nOpcoes\n1 - Extrato\n");
+        System.out.print("2 - Saldo\n3 - Deposito\n4 - Saque\n5 - Pagamentos\n99-Sair\n");
 
     }
 
     public static Correntista solicitaLogin(Scanner terminal){
 
-        System.out.print("######## 1# login\n************ Target Bank ************\n\nAgencia: "  );
+        System.out.print("######## 1# login ** [Target Bank] ************\nAgencia: "  );
         int nAgencia = terminal.nextInt();
-        System.out.println("Conta:");
+        System.out.print("Conta:");
         long nConta= terminal.nextLong();
-        System.out.println("Senha:");
+        System.out.print("Senha:");
         String senha= terminal.next().trim();
 
         if(!senha.equals("123456")){

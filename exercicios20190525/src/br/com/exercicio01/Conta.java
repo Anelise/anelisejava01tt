@@ -90,7 +90,7 @@ public class Conta {
     }
 
     public String geraExtrato(){
-        String extrato = "*Extrato* \n";
+        String extrato = "";
 
         for(Movimento m : movimentos){
             extrato += "\n"+m.toString();
