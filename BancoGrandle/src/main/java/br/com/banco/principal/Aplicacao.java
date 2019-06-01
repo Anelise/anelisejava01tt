@@ -44,6 +44,9 @@ public class Aplicacao {
                         case 5:
                             menuOp5(corrAtual);
                             break;
+                        case 6:
+                            menuOp6(corrAtual);
+                            break;
                         case 99:
                             System.out.println("Encerrar ");
                             return;
@@ -58,29 +61,44 @@ public class Aplicacao {
 
     public static void menuOp1(Correntista corr) {
         Tela.imprimeSeparador(3, "Extrato");
-
-        System.out.print(corr.getConta().geraExtrato());
-        System.out.print("\n\t\t\t" + corr.getConta().getSaldo() + "\n");
+        Tela.imprimeExtrato(corr);
     }
 
     public static void menuOp2(Correntista corr) {
         Tela.imprimeSeparador(4, "Saldo");
-        System.out.print(corr.getConta().geraExtrato());
-        System.out.print("\n\t\t\t" + corr.getConta().getSaldo() + "\n");
+        Tela.imprimeSaldo(corr);
     }
 
     public static void menuOp3(Correntista corr) {
         Tela.imprimeSeparador(4, "Deposito");
+        Tela.imprimeSaldo(corr);
+
+        double valor = Tela.solicitaDouble();
+        corr.getConta().depositaValorDoSaldo(valor);
+
+        Tela.imprimeSaldo(corr);
 
     }
 
     public static void menuOp4(Correntista corr) {
         Tela.imprimeSeparador(5, "Saque");
+        Tela.imprimeSaldo(corr);
+
+        double valor = Tela.solicitaDouble();
+        corr.getConta().retiraValorDoSaldo(valor);
+
+        Tela.imprimeSaldo(corr);
 
     }
 
     public static void menuOp5(Correntista corr) {
         Tela.imprimeSeparador(6, "Pagamentos");
+
+    }
+
+    public static void menuOp6(Correntista corr) {
+        Tela.imprimeSeparador(7, "Rendimentos");
+        Tela.imprimeValor(corr.getConta().calculaRendimentoMes(),"Rendimento calculado");
 
     }
 

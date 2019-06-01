@@ -12,7 +12,7 @@ public class Tela {
     }
     public static int solicitaOpMenu(){
         System.out.print("\nOpcoes\n1 - Extrato\n");
-        System.out.print("2 - Saldo\n3 - Deposito\n4 - Saque\n5 - Pagamentos\n99-Sair\n");
+        System.out.print("2 - Saldo\n3 - Deposito\n4 - Saque\n5 - Pagamentos\n6 - Rendimentos\n99-Sair\n");
         return terminal.nextInt();
     }
 
@@ -37,6 +37,21 @@ public class Tela {
         return terminal.next().trim();
     }
 
+    public static void imprimeExtrato(Correntista correntista){
+        System.out.print(correntista.getConta().geraExtrato());
+        imprimeSaldo(correntista);
+    }
 
+    public static void imprimeValor(double valor,String titulo){
+        System.out.print("\n"+titulo+"\t\t\t" + valor+ "\n");
+    }
 
+    public static double solicitaDouble(){
+        System.out.print("Digite o valor da operação:");
+        return terminal.nextDouble();
+    }
+
+    public static void imprimeSaldo(Correntista correntista){
+        imprimeValor(correntista.getConta().getSaldo(),"Saldo");
+    }
 }

@@ -64,14 +64,14 @@ public class Conta {
         this.numeroConta = numeroConta;
     }
 
-    public void retiraValorDoSaldo(int valor){
+    public void retiraValorDoSaldo(double valor){
         if(valor < getSaldo()){
             setSaldo(getSaldo()-valor);
             movimentos.add(new Movimento(Movimento.TipoMovimento.SAQUE,valor, "Movimentação SAQUE"));
         }
     }
 
-    public void depositaValorDoSaldo(int valor){
+    public void depositaValorDoSaldo(double valor){
         this.setSaldo(this.getSaldo()+valor);
         movimentos.add(new Movimento(Movimento.TipoMovimento.DEPOSITO,valor, "Movimentação DEPóSITO"));
     }
