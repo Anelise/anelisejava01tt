@@ -7,8 +7,7 @@ public class BancoDeDados {
 
     public static ArrayList<Correntista> getCorrentistasBD(){
         if(corr == null){
-            corr = new ArrayList();
-            inicializaBD();
+            limpaBD();
         }
 
         return corr;
@@ -42,6 +41,11 @@ public class BancoDeDados {
         }
         return null;
 
+    }
+
+    public static void limpaBD(){
+        corr = new ArrayList();
+        inicializaBD();
     }
 
 

@@ -2,38 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df8c2222-a8f4-4292-806a-f29fea8aae79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banco/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banco/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banco/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banco/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banco/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banco/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banco/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banco/banco.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banco/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios20190525/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios20190525/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios20190525/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios20190525/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios20190525/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios20190525/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios20190525/exercicios20190525.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios20190525/out/production/exercicios20190525/META-INF/exercicios20190525.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios20190525/out/production/exercicios20190525/br/com/exercicio01/Aplicacao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios20190525/out/production/exercicios20190525/br/com/exercicio01/BancoDeDados.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios20190525/out/production/exercicios20190525/br/com/exercicio01/Conta$TipoConta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios20190525/out/production/exercicios20190525/br/com/exercicio01/Conta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios20190525/out/production/exercicios20190525/br/com/exercicio01/Correntista.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios20190525/out/production/exercicios20190525/br/com/exercicio01/Indices.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios20190525/out/production/exercicios20190525/br/com/exercicio01/Movimento$TipoMovimento.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios20190525/out/production/exercicios20190525/br/com/exercicio01/Movimento.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios20190525/src/br/com/exercicio01/Aplicacao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios20190525/src/br/com/exercicio01/BancoDeDados.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios20190525/src/br/com/exercicio01/Conta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios20190525/src/br/com/exercicio01/Correntista.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios20190525/src/br/com/exercicio01/Indices.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios20190525/src/br/com/exercicio01/Movimento.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/banco/principal/Controlador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/banco/principal/Tela.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LoginTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/br/com/banco/principal/Aplicacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/br/com/banco/principal/Aplicacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/banco/modelo/BancoDeDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/banco/modelo/BancoDeDados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/banco/principal/Aplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/banco/principal/Aplicacao.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -51,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/banco/principal/Aplicacao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+            <state relative-caret-position="306">
+              <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,7 +39,68 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/banco/principal/Controlador.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/banco/principal/Tela.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/banco/modelo/BancoDeDados.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/LoginTeste.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/banco/modelo/Conta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-255">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -71,13 +108,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/br/com/banco/modelo/BancoDeDados.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/banco/modelo/Conta.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/banco/modelo/Correntista.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/banco/modelo/Indices.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/banco/modelo/Movimento.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/banco/principal/AplicacaoExercicio20190525.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/banco/principal/DesenhaTela.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/banco/principal/Controlador.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/banco/principal/Tela.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/banco/principal/Aplicacao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/banco/modelo/BancoDeDados.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LoginTeste.java" />
       </list>
     </option>
   </component>
@@ -144,6 +185,12 @@
               <item name="banco" type="462c0819:PsiDirectoryNode" />
               <item name="principal" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="banco" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BancoGrandle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -153,7 +200,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559411918701" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559417129480" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -167,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.LoginTeste">
     <configuration name="Aplicacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.banco.principal.Aplicacao" />
       <module name="banco_main" />
@@ -181,8 +228,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="banco_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginTeste" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTeste.deve_realizar_login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="banco_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginTeste" />
+      <option name="METHOD_NAME" value="deve_realizar_login" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTeste.login_NullSenhaErrada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="banco_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginTeste" />
+      <option name="METHOD_NAME" value="login_NullSenhaErrada" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginTeste" />
+        <item itemvalue="JUnit.LoginTeste.login_NullSenhaErrada" />
+        <item itemvalue="JUnit.LoginTeste.deve_realizar_login" />
         <item itemvalue="Application.Aplicacao" />
       </list>
     </recent_temporary>
@@ -200,6 +279,20 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="LoginTeste_deve_realizar_login - 2019.06.01 at 15h 15m 21s.xml">
+      <configuration name="LoginTeste.deve_realizar_login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTeste_deve_realizar_login - 2019.06.01 at 15h 15m 40s.xml">
+      <configuration name="LoginTeste.deve_realizar_login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTeste_deve_realizar_login - 2019.06.01 at 16h 14m 51s.xml">
+      <configuration name="LoginTeste.deve_realizar_login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTeste_deve_realizar_login - 2019.06.01 at 16h 15m 49s.xml">
+      <configuration name="LoginTeste.deve_realizar_login" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
@@ -209,16 +302,16 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3293011" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.3293011" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3293011" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3293011" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -235,13 +328,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/banco/modelo/Conta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/banco/modelo/Movimento.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -263,13 +349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/banco/modelo/BancoDeDados.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../banco/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -284,10 +363,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/banco/modelo/Conta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/banco/principal/Tela.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/banco/principal/Controlador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/banco/principal/Aplicacao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+        <state relative-caret-position="306">
+          <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/banco/modelo/BancoDeDados.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoginTeste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
