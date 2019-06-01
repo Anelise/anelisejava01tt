@@ -1,11 +1,9 @@
 import br.com.banco.modelo.BancoDeDados;
 import br.com.banco.modelo.Conta;
 import br.com.banco.modelo.Correntista;
-import br.com.banco.principal.Aplicacao;
 import br.com.banco.principal.Controlador;
 import org.junit.Assert;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class LoginTeste {
@@ -29,18 +27,28 @@ public class LoginTeste {
     @Test
     public void login_AchaComDadosCertos(){
         c1 = Controlador.fazLogin(1,1,"123456");
-        Assert.assertNotEquals(c1,null); //Conta Existe  Loga
+        Assert.assertNotEquals(c1,null); //Conta Existe, Loga
     }
 
     @Test
     public void login_NullSenhaErrada(){
         c1 = Controlador.fazLogin(1,1,"12345");
-        Assert.assertEquals(c1,null); //Senha Errada não loga
+        Assert.assertEquals(c1,null); //Senha Errada, não loga
     }
 
     @Test
     public void login_NullNaoExiste(){
         c1 = Controlador.fazLogin(4,4,"123456");
-        Assert.assertEquals(c1,null); //Não está no Bd não loga
+        Assert.assertEquals(c1,null); //Não cadastrado, não loga
+    }
+
+    @Test
+    public void login_criaUsuarioLoga(){
+        c1= new Correntista("Professor Riguel", new Conta(4,4));
+        BancoDeDados.getCorrentistasBD().add(c1);
+
+        c1 = Controlador.fazLogin(4,4,"123456");
+
+        Assert.assertNotEquals(c1,null); //Loga
     }
 }
