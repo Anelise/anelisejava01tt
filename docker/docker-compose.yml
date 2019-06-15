@@ -1,0 +1,30 @@
+version: "3"
+
+services:
+  teste-postgres-compose:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: "Postgres2019!" # utilizar esta senha para criar uma conexao com o banco de dados
+    ports:
+      - "15432:5432"
+    volumes:
+      - "/c/Users/aluno03sala04/Desktop/docker/PostgreSQL: /var/lib/postgresql/data"
+      # [/pastaDeSuaMaquina/seuNome/]Docker-TT/PostgreSQL:/var/lib/postgresql/data
+    networks:
+      - postgres-compose-network
+
+  teste-pgadmin-compose:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "superuser@gmail.com" #utilizar esse usuario para acesso no pgadmin
+      PGADMIN_DEFAULT_PASSWORD: "PgAdmin2019!"
+    ports:
+      - "16543:80"
+    depends_on:
+      - teste-postgres-compose
+    networks:
+      - postgres-compose-network
+
+networks:
+  postgres-compose-network:
+    driver: bridge
