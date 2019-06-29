@@ -2,7 +2,6 @@ package com.target.loja;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -54,5 +53,10 @@ public class ProdutoController {
     @PostMapping("/produto/nome/")
     public List<Produto> getProdutosPorNome(@RequestBody String nome){
         return repo.findByNome(nome);
+    }
+
+    @GetMapping("/produto/valor")
+    public List<Produto> getProdutosPorValor(@RequestParam Double v1, @RequestParam Double v2){
+        return repo.findByValores(v1,v2);
     }
 }
