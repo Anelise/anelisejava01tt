@@ -1,32 +1,18 @@
 package com.target.loja;
 
+public class ProdutoDTO {
+    long id;
+    String nome;
+    double valor;
 
+    public ProdutoDTO() {
+    }
 
-import io.swagger.annotations.ApiModelProperty;
-
-import javax.persistence.*;
-
-
-@Entity
-public class Produto {
-
-    @ApiModelProperty
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Id
-    private long id;
-    @Column(nullable = false,name="nome")
-    private String nome;
-    private double valor;
-
-    public Produto(){}
-
-    public Produto(long id, String nome, double valor) {
+    public ProdutoDTO(long id, String nome, double valor) {
         this.id = id;
-
         this.nome = nome;
         this.valor = valor;
     }
-
 
     public long getId() {
         return id;

@@ -1,5 +1,6 @@
 package com.target.loja;
 
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -9,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.ArrayList;
 import java.util.List;
 
-
+@Api(value="CarrinhoController",description="Permite gerenciar carrinho, que é relacionado com uma lista de produtos ")
 @RestController
 public class CarrinhoController {
     @Autowired
